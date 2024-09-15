@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fast Chicken - plats délicieux de restauration rapide en France. Découvrez notre menu : burgers, buckets, tacos et bien plus. Livraison gratuite à Ittenheim et dans les environs.">
+    <meta name="keywords" content="Fast Chicken, fast-food, burgers, livraison, Ittenheim, buckets, poulet, tacos">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="./images/fast-chicken-logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +26,25 @@
       gtag('config', 'G-DHRE9VD3Y1');
     </script>
     <title>Fast Chiken</title>
+    <!-- JSON-LD для структурированных данных -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Fast Chicken",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "16 Route de Paris",
+        "addressLocality": "Ittenheim",
+        "postalCode": "67117",
+        "addressCountry": "FR"
+      },
+      "telephone": "09 52 70 99 08",
+      "menu": "https://fastchicken.fr/menu",
+      "servesCuisine": "Fast Food",
+      "openingHours": "Tu-Su 18:00-22:00"
+    }
+    </script>
 </head>
 <body>
     <div id="app">
@@ -43,7 +64,7 @@
       <!-- Header Start -->
         <div id="header">
           <div class="header-logo">
-              <img src="./images/fast-chicken-logo.png" alt="">
+              <img src="./images/fast-chicken-logo.png" alt="Logo Fast Chicken" loading="lazy">
           </div>
           <div class="informations">
             <div class="time-phone-adresse">
@@ -93,10 +114,10 @@
         <!-- Swiper Start -->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide "><img src="./images/burgers.png" alt=""></div>
-              <div class="swiper-slide"><img src="./images/buckets.png" alt=""></div>
-              <div class="swiper-slide"><img src="./images/wraps.png" alt=""></div>
-              <div class="swiper-slide"><img src="./images/tacos.png" alt=""></div>
+              <div class="swiper-slide "><img src="./images/burgers.png" alt="Burgers Fast Chicken"></div>
+              <div class="swiper-slide"><img src="./images/buckets.png" alt="Buckets Fast Chicken"></div>
+              <div class="swiper-slide"><img src="./images/wraps.png" alt="Wraps Fast Chicken"></div>
+              <div class="swiper-slide"><img src="./images/tacos.png" alt="Tacos Fast Chicken"></div>
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -141,27 +162,27 @@
         <!-- Menu Start -->
         <div id="menu">
           <div class="menu-buckets">
-            <img src="./images/menu-buckets.png" alt="Menu Buckets">
+            <img src="./images/menu-buckets.png" alt="Menu Buckets Fast Chicken" loading="lazy">
           </div>
 
           <div class="menu-burgers">
-            <img src="./images/menu-burger.png" alt="Menu Burgers">
+            <img src="./images/menu-burger.png" alt="Menu Burgers Fast Chicken" loading="lazy">
           </div>
 
           <div class="menu-wraps">
-            <img src="./images/menu-wraps.png" alt="Menu Wraps">
+            <img src="./images/menu-wraps.png" alt="Menu Wraps Fast Chicken" loading="lazy">
           </div>
 
           <div class="menu-tacos">
-            <img src="images/menu-tacos.png" alt="Menu Tacos">
+            <img src="images/menu-tacos.png" alt="Menu Tacos Fast Chicken" loading="lazy">
           </div>
 
           <div class="tex-mex">
-            <img src="./images/tex-mex.png" alt="Tex Mex">
+            <img src="./images/tex-mex.png" alt="Tex Mex Fast Chicken" loading="lazy">
           </div>
 
           <div class="menu-enfants">
-            <img src="./images/menu-enfants.png" alt="Menu Enfants">
+            <img src="./images/menu-enfants.png" alt="Menu Enfants Fast Chicken" loading="lazy">
           </div>
       </div>
         <!-- Menu end -->
